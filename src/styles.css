@@ -122,7 +122,11 @@ body {
     margin: auto;
     display: flex;
   }
-
+  .warning{
+    margin: auto;
+    text-align: center;
+    
+  }
   @media(min-width: 760px){
     .card{
         width: 30%;

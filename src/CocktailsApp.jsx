@@ -5,13 +5,12 @@ import { CocktailsGrid } from './components/CocktailsGrid';
 import { PopUp } from './components/PopUp';
 
 export const CocktailsApp = () => {
-
     const [categories, setCategories] = useState(['Anis']);
     const [openPopUp, setOpenPopUp] = useState(false);
     const [cocktailSelected, setCocktailSelected] = useState('');
     const handleAddCategory = (category)=>{
-        if(categories.includes(category))return;
-        setCategories([...categories, category]);
+      if(categories.includes(category))return;
+      setCategories([...categories, category]);
     }
 
   return (
